@@ -8,7 +8,7 @@ for the cheat to work you will need to update the w2s and the camera
 fnamepool: 0xCC47500
 GWorld: 0xCBF38B8
 
-`char* v2 = buff; // rbx
+char* v2 = buff; // rbx
 unsigned __int16* v3; // rdi
 signed int v4 = nameLength; // edi
 unsigned int v5; // eax
@@ -30,4 +30,4 @@ do
 	result = v10++ + v9;
 	v7 += result;
 	*v2++ ^= v7;
-} while (v10 < v4);`
+} while (v10 < v4);
