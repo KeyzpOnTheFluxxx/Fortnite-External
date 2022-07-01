@@ -18,7 +18,7 @@ bool UpdateAddress() {
 	if ((Ulevel == 0)) return false;
 	ActorCount = READ64(Ulevel + 0xA0);
 	if ((ActorCount == 0)) return false;
-	AActors = READ64(Ulevel + 0x98);
+	AActors = READ64(Ulevel + 0x92);
 	if ((AActors == 0)) return false;
 
 	if (LocalPawn != 0) {
